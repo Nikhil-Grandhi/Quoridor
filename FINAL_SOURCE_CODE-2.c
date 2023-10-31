@@ -876,7 +876,7 @@ int wcheckw(char board[][COLUMNS],char wmove[]){
             }
         }
         else if (d2==8 && d4==4){
-            if (board[wp.x][wp.y+6]!=(char)186){
+            if (board[wp.x][wp.y+6]!=(char)186 && board[wp.x][wp.y+2]!=(char)186){
                 return 1;
             }
             else {
@@ -884,7 +884,7 @@ int wcheckw(char board[][COLUMNS],char wmove[]){
             }
         }
         else if (d2==-8 && d4==-4){
-            if (board[wp.x][wp.y-6]!=(char)186){
+            if (board[wp.x][wp.y-6]!=(char)186 && board[wp.x][wp.y-2]!=(char)186){
                 return 1;
             }
             else {
@@ -892,7 +892,7 @@ int wcheckw(char board[][COLUMNS],char wmove[]){
             }
         }
         else if (d1==4 && d3==2){
-            if (board[wp.x+3][wp.y]!=(char)205){
+            if (board[wp.x+3][wp.y]!=(char)205 && board[wp.x+1][wp.y]!=(char)205){
                 return 1;
             }
             else {
@@ -900,7 +900,7 @@ int wcheckw(char board[][COLUMNS],char wmove[]){
             }
         }
         else if (d1==-4 && d3==-2){
-            if (board[wp.x-3][wp.y]!=(char)205){
+            if (board[wp.x-3][wp.y]!=(char)205 && board[wp.x-1][wp.y]!=(char)205){
                 return 1;
             }
             else {
@@ -991,7 +991,7 @@ int wcheckb(char board[][COLUMNS],char bmove[]){
             }
         }
         else if (d2==8 && d4==4){
-            if (board[bp.x][bp.y+6]!=(char)186){
+            if (board[bp.x][bp.y+6]!=(char)186 && board[bp.x][bp.y+2]!=(char)186){
                 return 1;
             }
             else {
@@ -999,7 +999,7 @@ int wcheckb(char board[][COLUMNS],char bmove[]){
             }
         }
         else if (d2==-8 && d4==-4){
-            if (board[bp.x][bp.y-6]!=(char)186){
+            if (board[bp.x][bp.y-6]!=(char)186 && board[bp.x][bp.y-2]!=(char)186){
                 return 1;
             }
             else {
@@ -1007,7 +1007,7 @@ int wcheckb(char board[][COLUMNS],char bmove[]){
             }
         }
         else if (d1==4 && d3==2){
-            if (board[bp.x+3][bp.y]!=(char)205){
+            if (board[bp.x+3][bp.y]!=(char)205 && board[bp.x+1][bp.y]!=(char)205){
                 return 1;
             }
             else {
@@ -1015,7 +1015,7 @@ int wcheckb(char board[][COLUMNS],char bmove[]){
             }
         }
         else if (d1==-4 && d3==-2){
-            if (board[bp.x-3][bp.y]!=(char)205){
+            if (board[bp.x-3][bp.y]!=(char)205 && board[bp.x-1][bp.y]!=(char)205){
                 return 1;
             }
             else {
