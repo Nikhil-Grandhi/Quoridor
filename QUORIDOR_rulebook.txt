@@ -11,6 +11,7 @@ Object of the Game
 -To be the first to reach the line opposite to one's base line.
 
 Game Play
+
 -Each player in turn, chooses to move his pawn or to put up one of his fences. When he has run out of fences, the player must move his pawn.
 
 -Initially the board has just two pawns one white(for player 1) and one black(for player 2) .Both the pawns are placed at the centre of the first column on the players side.
@@ -25,6 +26,8 @@ Game Play
 -The fences MUST be placed next to EXACTLY 2 squares , no more no less.
 
 -By placing fences, you force your opponent to move around it and increase the number of moves they need to make. But be careful, you are not allowed to lock up your opponents pawn, it must always be able to reach it's goal by at least one square.
+
+-If a player completely blocks the path of opponent or himself, the game will be declared as a stalemate and it is a draw.
 
 -When two pawns face each other on neighboring squares which are not separated by a fence, the player whose turn it is can jump the opponent's pawn (and place himself behind him), thus advancing an extra square. 
 
