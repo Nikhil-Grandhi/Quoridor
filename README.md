@@ -99,4 +99,6 @@ To deploy this project run
 
   ![image](https://github.com/Nikhil-Grandhi/Quoridor/assets/148225573/4f7dec46-0c17-4666-a29b-45e2affd0638)
 
+## Demo Video 
+ - https://clipchamp.com/watch/FC2AI0bF2hE
  
